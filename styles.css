@@ -29,3 +29,7 @@ p {
     display: none;
     text-align: center;
 }
+.counter {
+    font-family: 'Sora', sans-serif;
+    text-align: right;
+}
