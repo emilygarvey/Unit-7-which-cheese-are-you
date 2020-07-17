@@ -1,1 +1,10 @@
-const _0x8a84=['append','.</p>','.submit','.age','val','.results','click','<p>You\x20are\x20','show','\x20years\x20old\x20and\x20you\x20like\x20foods\x20that\x20taste\x20'];(function(_0x4ff19e,_0x8a8446){const _0x47edd2=function(_0x2e2f4e){while(--_0x2e2f4e){_0x4ff19e['push'](_0x4ff19e['shift']());}};_0x47edd2(++_0x8a8446);}(_0x8a84,0x1b4));const _0x47ed=function(_0x4ff19e,_0x8a8446){_0x4ff19e=_0x4ff19e-0x0;let _0x47edd2=_0x8a84[_0x4ff19e];return _0x47edd2;};$(_0x47ed('0x6'))[_0x47ed('0x0')](function(){let _0x739cd5=$(_0x47ed('0x7'))[_0x47ed('0x8')](),_0x2b228d=$('.taste')[_0x47ed('0x8')]();$(_0x47ed('0x9'))[_0x47ed('0x4')](_0x47ed('0x1')+_0x739cd5+_0x47ed('0x3')+_0x2b228d+_0x47ed('0x5')),$(_0x47ed('0x9'))[_0x47ed('0x2')]();});
+let count = 0;
+$(".submit").click(function() {
+    let age = $(".age").val();
+    let taste = $(".taste").val();
+    $(".results").append("<p>You are " + age + " years old and you like foods that taste " + taste + ".</p>");
+    $(".results").show();
+    count = count + 1;
+    $(".counter").text("This quiz has been taken " + count + " times");
+
+});
