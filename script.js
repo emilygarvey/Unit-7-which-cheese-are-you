@@ -1,10 +1,1 @@
-let count = 0;
-$(".submit").click(function() {
-    let age = $(".age").val();
-    let taste = $(".taste").val();
-    $(".results").append("<p>You are " + age + " years old and you like foods that taste " + taste + ".</p>");
-    $(".results").show();
-    count = count + 1;
-    $(".counter").text("This quiz has been taken " + count + " times");
-
-});
+const _0x5390=['.</p>','.taste','.age','text','.counter','.results','\x20years\x20old\x20and\x20you\x20like\x20foods\x20that\x20taste\x20','.submit','<p>You\x20are\x20','\x20times','This\x20quiz\x20has\x20been\x20taken\x20','val','click'];(function(_0x224dd4,_0x53906b){const _0x4773fe=function(_0x442768){while(--_0x442768){_0x224dd4['push'](_0x224dd4['shift']());}};_0x4773fe(++_0x53906b);}(_0x5390,0xf4));const _0x4773=function(_0x224dd4,_0x53906b){_0x224dd4=_0x224dd4-0x0;let _0x4773fe=_0x5390[_0x224dd4];return _0x4773fe;};let count=0x0;$(_0x4773('0xa'))[_0x4773('0x2')](function(){let _0x5da9f3=$(_0x4773('0x5'))[_0x4773('0x1')](),_0x1c5a9a=$(_0x4773('0x4'))[_0x4773('0x1')]();$(_0x4773('0x8'))['append'](_0x4773('0xb')+_0x5da9f3+_0x4773('0x9')+_0x1c5a9a+_0x4773('0x3')),$(_0x4773('0x8'))['show'](),count=count+0x1,$(_0x4773('0x7'))[_0x4773('0x6')](_0x4773('0x0')+count+_0x4773('0xc'));});
